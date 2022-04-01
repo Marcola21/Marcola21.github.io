@@ -7,7 +7,7 @@
 hr {
     background-color: rgb(255, 255, 255);
     border: solid rgb(255, 255, 255) 0.1px;
-    width: 300px;
+    width: 650px;
     margin: auto;
 }
 
@@ -32,23 +32,44 @@ p {
 }
 
 #nome {
-    padding: 10px;
-    padding-bottom: 20px;
+    margin: auto;
+    width: 440px;
+    padding: 20px;
+
 }
 
 #container {
     border-radius: 6px;
     margin: auto;
-    width: 600px;
+    width: 700px;
     background-color: rgb(62, 65, 65);
     margin: 20px;
 }
 
-img {
-    display: block;
-    margin: auto;
-    padding: 20px;
+#mf {
+    width: 300px;
+    border: 3px solid rgb(111, 209, 13);
+    border-radius: 100%;
+    margin-top: 6%;
 }
+
+
+
+#apresent {
+    display: inline-block;
+    padding: 25px;
+}
+
+#desc {
+    display: inline;
+    width: 300px;
+    float: right;
+}
+
+#liImpar {
+    color: rgb(111, 209, 13);
+}
+
 li {
     margin-left: 20px;
 }
